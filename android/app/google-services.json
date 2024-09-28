@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "498646571873",
+    "project_id": "bdmobility-7c131",
+    "storage_bucket": "bdmobility-7c131.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498646571873:android:ee2fdf4ea188ffbeb4c320",
+        "android_client_info": {
+          "package_name": "com.app.bdmobility"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC43khbtrbnBxJ68zxprUkiMp5g3MCy5oY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
