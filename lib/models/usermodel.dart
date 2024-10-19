@@ -107,6 +107,14 @@ class UserModel {
     };
   }
 
+  factory UserModel.fromMap(Map<String, dynamic> map) {
+    return UserModel(
+      uuid: map['uuid'],
+      email: map['email'],
+      username: map['username'],
+      password: map['password'],
+    );
+  }
   // Encrypt password
   static String encryptPassword(String password) {
     var bytes = utf8.encode(password);

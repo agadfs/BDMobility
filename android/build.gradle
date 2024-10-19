@@ -12,13 +12,29 @@
 //        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
  //   }
 //}
+subprojects {
+    afterEvaluate { project ->
+        if (project.hasProperty('android')) {
+            project.android {
+                if (namespace == null) {
+                    namespace project.group
+                }
+                compileSdkVersion 34
+                buildToolsVersion "35"
+            }
+        }
+    }
+}
+
 
 allprojects {
     repositories {
         google()
         mavenCentral()
+
     }
 }
+
 
 rootProject.buildDir = '../build'
 subprojects {

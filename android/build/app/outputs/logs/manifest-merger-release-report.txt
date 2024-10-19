@@ -24,6 +24,9 @@ MERGED from [:webf] /Users/delmeluck/Documents/bridging_divs/mobi_div/build/webf
 MERGED from [:webview_flutter_android] /Users/delmeluck/Documents/bridging_divs/mobi_div/build/webview_flutter_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [de.motiontag:tracker:7.1.7] /Users/delmeluck/.gradle/caches/transforms-4/0e1df93d83b1fb7b7d94727878c81c56/transformed/jetified-tracker-7.1.7/AndroidManifest.xml:2:1-75:12
 MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/delmeluck/.gradle/caches/transforms-4/ff5f590351e8e07c3dcf90f8373972d7/transformed/jetified-play-services-location-21.3.0/AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.window:window-java:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/a08fb90fd48c6e9375cafe436c499d11/transformed/jetified-window-java-1.3.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.window:window:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/2c1ecd46d5a2721e38ebb5011664988a/transformed/jetified-window-1.3.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/f77ef9caf097e47e5057ecd3d30404ae/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.media:media:1.1.0] /Users/delmeluck/.gradle/caches/transforms-4/67d7b788f84b288d3b1d261c2556c543/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/delmeluck/.gradle/caches/transforms-4/8ec5d7964fadb09ed27ba10eb578643e/transformed/jetified-play-services-maps-19.0.0/AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/delmeluck/.gradle/caches/transforms-4/57595b68ee46fcde46f1eeb597a6f27a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:2:1-26:12
@@ -60,8 +63,6 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/delmeluck/.gradl
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/delmeluck/.gradle/caches/transforms-4/f67e82cd6da69a852e6f441330af29b3/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/delmeluck/.gradle/caches/transforms-4/47522cae0f4690d3c33f58722b10c317/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-ktx:2.4.3] /Users/delmeluck/.gradle/caches/transforms-4/e56bcdced745360dd99d8d5ce54e1dfe/transformed/jetified-room-ktx-2.4.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window:window-java:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/3553090e3bcff78cc244a91a42f89e99/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
-MERGED from [androidx.window:window:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/e054472f4edc0a9c32411ef4ba59787c/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/b2fdeaf47c1c82a2a6f72074e671ee7a/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.datastore:datastore:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/b3b36154296609c0480955c9971f33bd/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/delmeluck/.gradle/caches/transforms-4/2edd29b1b184d3c5aade25310a6e5624/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
@@ -102,7 +103,6 @@ MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/delmeluck/.g
 MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/delmeluck/.gradle/caches/transforms-4/18e013980b315e1afe63d4779e92c451/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [net.zetetic:android-database-sqlcipher:4.5.2] /Users/delmeluck/.gradle/caches/transforms-4/b025f2b031b0be944b02048fe78acfd3/transformed/jetified-android-database-sqlcipher-4.5.2/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/delmeluck/.gradle/caches/transforms-4/f5da97295346917e05bfbb1a587db6b5/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/f77ef9caf097e47e5057ecd3d30404ae/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/f23af7a3e7ee12f5b9631e4984cebd83/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/d7c80ccf879c886728e89f53f68ad667/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/delmeluck/.gradle/caches/transforms-4/209ecc01ff721ad8c6ff94a8e8ddedda/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
@@ -217,6 +217,8 @@ MERGED from [de.motiontag:tracker:7.1.7] /Users/delmeluck/.gradle/caches/transfo
 MERGED from [de.motiontag:tracker:7.1.7] /Users/delmeluck/.gradle/caches/transforms-4/0e1df93d83b1fb7b7d94727878c81c56/transformed/jetified-tracker-7.1.7/AndroidManifest.xml:31:5-73:19
 MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/delmeluck/.gradle/caches/transforms-4/ff5f590351e8e07c3dcf90f8373972d7/transformed/jetified-play-services-location-21.3.0/AndroidManifest.xml:6:5-20
 MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/delmeluck/.gradle/caches/transforms-4/ff5f590351e8e07c3dcf90f8373972d7/transformed/jetified-play-services-location-21.3.0/AndroidManifest.xml:6:5-20
+MERGED from [androidx.window:window:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/2c1ecd46d5a2721e38ebb5011664988a/transformed/jetified-window-1.3.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/2c1ecd46d5a2721e38ebb5011664988a/transformed/jetified-window-1.3.0/AndroidManifest.xml:22:5-29:19
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/delmeluck/.gradle/caches/transforms-4/8ec5d7964fadb09ed27ba10eb578643e/transformed/jetified-play-services-maps-19.0.0/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/delmeluck/.gradle/caches/transforms-4/8ec5d7964fadb09ed27ba10eb578643e/transformed/jetified-play-services-maps-19.0.0/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/delmeluck/.gradle/caches/transforms-4/57595b68ee46fcde46f1eeb597a6f27a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:13:5-24:19
@@ -253,8 +255,6 @@ MERGED from [androidx.work:work-runtime:2.7.1] /Users/delmeluck/.gradle/caches/t
 MERGED from [androidx.work:work-runtime:2.7.1] /Users/delmeluck/.gradle/caches/transforms-4/dafbec6b46d674af0fddd7497163e6b6/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/delmeluck/.gradle/caches/transforms-4/f67e82cd6da69a852e6f441330af29b3/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/delmeluck/.gradle/caches/transforms-4/f67e82cd6da69a852e6f441330af29b3/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.window:window:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/e054472f4edc0a9c32411ef4ba59787c/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
-MERGED from [androidx.window:window:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/e054472f4edc0a9c32411ef4ba59787c/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/delmeluck/.gradle/caches/transforms-4/2edd29b1b184d3c5aade25310a6e5624/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/delmeluck/.gradle/caches/transforms-4/2edd29b1b184d3c5aade25310a6e5624/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/delmeluck/.gradle/caches/transforms-4/6f4022ff87fe3babc70d74d788359a50/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
@@ -401,6 +401,12 @@ MERGED from [de.motiontag:tracker:7.1.7] /Users/delmeluck/.gradle/caches/transfo
 MERGED from [de.motiontag:tracker:7.1.7] /Users/delmeluck/.gradle/caches/transforms-4/0e1df93d83b1fb7b7d94727878c81c56/transformed/jetified-tracker-7.1.7/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/delmeluck/.gradle/caches/transforms-4/ff5f590351e8e07c3dcf90f8373972d7/transformed/jetified-play-services-location-21.3.0/AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/delmeluck/.gradle/caches/transforms-4/ff5f590351e8e07c3dcf90f8373972d7/transformed/jetified-play-services-location-21.3.0/AndroidManifest.xml:4:5-44
+MERGED from [androidx.window:window-java:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/a08fb90fd48c6e9375cafe436c499d11/transformed/jetified-window-java-1.3.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/a08fb90fd48c6e9375cafe436c499d11/transformed/jetified-window-java-1.3.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/2c1ecd46d5a2721e38ebb5011664988a/transformed/jetified-window-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/2c1ecd46d5a2721e38ebb5011664988a/transformed/jetified-window-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/f77ef9caf097e47e5057ecd3d30404ae/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/f77ef9caf097e47e5057ecd3d30404ae/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.media:media:1.1.0] /Users/delmeluck/.gradle/caches/transforms-4/67d7b788f84b288d3b1d261c2556c543/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.1.0] /Users/delmeluck/.gradle/caches/transforms-4/67d7b788f84b288d3b1d261c2556c543/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/delmeluck/.gradle/caches/transforms-4/8ec5d7964fadb09ed27ba10eb578643e/transformed/jetified-play-services-maps-19.0.0/AndroidManifest.xml:20:5-44
@@ -473,10 +479,6 @@ MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/delmeluck/.gradle/cach
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/delmeluck/.gradle/caches/transforms-4/47522cae0f4690d3c33f58722b10c317/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-ktx:2.4.3] /Users/delmeluck/.gradle/caches/transforms-4/e56bcdced745360dd99d8d5ce54e1dfe/transformed/jetified-room-ktx-2.4.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-ktx:2.4.3] /Users/delmeluck/.gradle/caches/transforms-4/e56bcdced745360dd99d8d5ce54e1dfe/transformed/jetified-room-ktx-2.4.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window-java:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/3553090e3bcff78cc244a91a42f89e99/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
-MERGED from [androidx.window:window-java:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/3553090e3bcff78cc244a91a42f89e99/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
-MERGED from [androidx.window:window:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/e054472f4edc0a9c32411ef4ba59787c/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.window:window:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/e054472f4edc0a9c32411ef4ba59787c/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/b2fdeaf47c1c82a2a6f72074e671ee7a/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/b2fdeaf47c1c82a2a6f72074e671ee7a/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.datastore:datastore:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/b3b36154296609c0480955c9971f33bd/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -557,8 +559,6 @@ MERGED from [net.zetetic:android-database-sqlcipher:4.5.2] /Users/delmeluck/.gra
 MERGED from [net.zetetic:android-database-sqlcipher:4.5.2] /Users/delmeluck/.gradle/caches/transforms-4/b025f2b031b0be944b02048fe78acfd3/transformed/jetified-android-database-sqlcipher-4.5.2/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/delmeluck/.gradle/caches/transforms-4/f5da97295346917e05bfbb1a587db6b5/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/delmeluck/.gradle/caches/transforms-4/f5da97295346917e05bfbb1a587db6b5/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/f77ef9caf097e47e5057ecd3d30404ae/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/f77ef9caf097e47e5057ecd3d30404ae/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/f23af7a3e7ee12f5b9631e4984cebd83/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/f23af7a3e7ee12f5b9631e4984cebd83/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/delmeluck/.gradle/caches/transforms-4/d7c80ccf879c886728e89f53f68ad667/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
@@ -789,6 +789,18 @@ action#de.motiontag.tracker.action.ACTIVITY_TRANSITION
 ADDED from [de.motiontag:tracker:7.1.7] /Users/delmeluck/.gradle/caches/transforms-4/0e1df93d83b1fb7b7d94727878c81c56/transformed/jetified-tracker-7.1.7/AndroidManifest.xml:70:17-90
 	android:name
 		ADDED from [de.motiontag:tracker:7.1.7] /Users/delmeluck/.gradle/caches/transforms-4/0e1df93d83b1fb7b7d94727878c81c56/transformed/jetified-tracker-7.1.7/AndroidManifest.xml:70:25-87
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/2c1ecd46d5a2721e38ebb5011664988a/transformed/jetified-window-1.3.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/2c1ecd46d5a2721e38ebb5011664988a/transformed/jetified-window-1.3.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/2c1ecd46d5a2721e38ebb5011664988a/transformed/jetified-window-1.3.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/2c1ecd46d5a2721e38ebb5011664988a/transformed/jetified-window-1.3.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/2c1ecd46d5a2721e38ebb5011664988a/transformed/jetified-window-1.3.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.3.0] /Users/delmeluck/.gradle/caches/transforms-4/2c1ecd46d5a2721e38ebb5011664988a/transformed/jetified-window-1.3.0/AndroidManifest.xml:27:13-51
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/delmeluck/.gradle/caches/transforms-4/8ec5d7964fadb09ed27ba10eb578643e/transformed/jetified-play-services-maps-19.0.0/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
@@ -1205,18 +1217,6 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/delmeluck/.gradle
 		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/delmeluck/.gradle/caches/transforms-4/f67e82cd6da69a852e6f441330af29b3/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/delmeluck/.gradle/caches/transforms-4/f67e82cd6da69a852e6f441330af29b3/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
-uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/e054472f4edc0a9c32411ef4ba59787c/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
-	android:required
-		ADDED from [androidx.window:window:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/e054472f4edc0a9c32411ef4ba59787c/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
-	android:name
-		ADDED from [androidx.window:window:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/e054472f4edc0a9c32411ef4ba59787c/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
-uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/e054472f4edc0a9c32411ef4ba59787c/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
-	android:required
-		ADDED from [androidx.window:window:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/e054472f4edc0a9c32411ef4ba59787c/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
-	android:name
-		ADDED from [androidx.window:window:1.2.0] /Users/delmeluck/.gradle/caches/transforms-4/e054472f4edc0a9c32411ef4ba59787c/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/delmeluck/.gradle/caches/transforms-4/6f4022ff87fe3babc70d74d788359a50/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
 MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/delmeluck/.gradle/caches/transforms-4/cde0ca72483482261e4469b617f8196c/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69

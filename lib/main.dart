@@ -3,19 +3,16 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:mobi_div/screens/googleMapScreen.dart';
+import 'package:mobi_div/firebase_options.dart';
 import 'package:mobi_div/screens/modified/authManagement.dart';
 import 'package:mobi_div/screens/modified/landingpage.dart';
 import 'package:mobi_div/screens/modified/tutorial.dart';
-import 'package:mobi_div/screens/onboarding.dart';
-import 'package:provider/provider.dart';
-import 'package:mobi_div/screens/splash.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:showcaseview/showcaseview.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 import 'package:firebase_core/firebase_core.dart';
 
-import 'screens/map_test.dart';
 
 
 void main() async{
@@ -27,7 +24,14 @@ void main() async{
   tz.setLocalLocation(tz.getLocation(timeZoneName));
 
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform
+  );
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
+
   runApp(
     App()
   );
@@ -52,9 +56,7 @@ class AppInit extends StatefulWidget {
 }
 
 class _AppInitState extends State<AppInit> {
-  bool? _firstTimeUser;
   User? _currentUser;
-
 
   @override
   void initState() {
@@ -68,7 +70,6 @@ class _AppInitState extends State<AppInit> {
     User? currentUser = FirebaseAuth.instance.currentUser;
 
     setState(() {
-      _firstTimeUser = firstTime;
       _currentUser = currentUser;
     });
 
@@ -76,7 +77,12 @@ class _AppInitState extends State<AppInit> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => firstTime ?
-        OnboardingScreen() : _currentUser != null ? LandingPage() : SignUpPage()),
+        OnboardingScreen() : _currentUser != null ? ShowCaseWidget(
+            blurValue: 1,
+            autoPlayDelay: const Duration(seconds: 3),
+            builder: (context) => LandingPage()
+        ) : SignUpPage()
+        ),
       );
     });
   }
@@ -90,13 +96,10 @@ class _AppInitState extends State<AppInit> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(height: 20),
-            Text(
-              'BDMobility',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-              ),
+            Image.asset(
+              'assets/logo_white.png',
+              width: 300,
+              height: 300,
             ),
           ],
         ),
